@@ -35,12 +35,12 @@ const SignUpPage = () => {
   };
 
   return (
-    <div className="min-h-screen grid lg:grid-cols-2">
+    <div className="h-screen grid mt-0 place-items-center b-0">
       {/* left side */}
-      <div className="flex flex-col justify-center items-center p-6 sm:p-12">
+      <div className="flex flex-col justify-center items-center p-6 w-100">
         <div className="w-full max-w-md space-y-8">
           {/* LOGO */}
-          <div className="text-center mb-8">
+          <div className="text-center mt-10 mb-8">
             <div className="flex flex-col items-center gap-2 group">
               <div
                 className="size-12 rounded-xl bg-primary/10 flex items-center justify-center 
@@ -143,11 +143,6 @@ const SignUpPage = () => {
       </div>
 
       {/* right side */}
-
-      <AuthImagePattern
-        title="Join our community"
-        subtitle="Connect with friends, share moments, and stay in touch with your loved ones."
-      />
     </div>
   );
 };
