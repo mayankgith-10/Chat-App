@@ -35,7 +35,7 @@ const SignUpPage = () => {
   return (
     <div className="h-screen grid mt-0 place-items-center b-0">
       {/* left side */}
-      <div className="flex flex-col justify-center items-center p-6 w-100">
+      <div className="flex flex-col justify-center items-center p-6 w-100%">
         <div className="w-full max-w-md space-y-8">
           {/* LOGO */}
           <div className="text-center mt-10 mb-8">
